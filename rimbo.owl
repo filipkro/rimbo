@@ -13,7 +13,7 @@
      xmlns:metadata="http://data.bioontology.org/metadata/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:edamontology="http://edamontology.org/">
-    <owl:Ontology rdf:about="https://project-genesis.io/rimbo"/>
+    <owl:Ontology rdf:about="http://rimbo.project-genesis.io"/>
     
 
 
@@ -446,92 +446,92 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.uni-rostock.de/comodi/comodi#hasReason -->
 
     <owl:ObjectProperty rdf:about="http://purl.uni-rostock.de/comodi/comodi#hasReason">
-        <rdfs:domain rdf:resource="https://project-genesis.io/rimbo#Revision"/>
+        <rdfs:domain rdf:resource="http://rimbo.project-genesis.io#Revision"/>
         <rdfs:range rdf:resource="http://purl.uni-rostock.de/comodi/comodi#Reason"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#aboutObservable -->
+    <!-- http://rimbo.project-genesis.io#aboutObservable -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#aboutObservable">
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#aboutObservable">
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/APO_0000017"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#createdBy -->
+    <!-- http://rimbo.project-genesis.io#createdBy -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#createdBy">
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#createdBy">
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Agent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#hasChange -->
+    <!-- http://rimbo.project-genesis.io#hasChange -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#hasChange">
-        <rdfs:domain rdf:resource="https://project-genesis.io/rimbo#Revision"/>
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#hasChange">
+        <rdfs:domain rdf:resource="http://rimbo.project-genesis.io#Revision"/>
         <rdfs:range rdf:resource="http://purl.uni-rostock.de/comodi/comodi#Change"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#hasPatch -->
+    <!-- http://rimbo.project-genesis.io#hasPatch -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#hasPatch">
-        <rdfs:range rdf:resource="https://project-genesis.io/rimbo#Patch"/>
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#hasPatch">
+        <rdfs:range rdf:resource="http://rimbo.project-genesis.io#Patch"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#isImplementedAs -->
+    <!-- http://rimbo.project-genesis.io#isImplementedAs -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#isImplementedAs">
-        <rdfs:domain rdf:resource="https://project-genesis.io/rimbo#Model"/>
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#isImplementedAs">
+        <rdfs:domain rdf:resource="http://rimbo.project-genesis.io#Model"/>
         <rdfs:range rdf:resource="http://edamontology.org/format_1915"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#ofMaterialEntity -->
+    <!-- http://rimbo.project-genesis.io#ofMaterialEntity -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#ofMaterialEntity">
-        <rdfs:range rdf:resource="https://project-genesis.io/rimbo#MaterialEntity"/>
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#ofMaterialEntity">
+        <rdfs:range rdf:resource="http://rimbo.project-genesis.io#MaterialEntity"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#patchTo -->
+    <!-- http://rimbo.project-genesis.io#patchTo -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#patchTo">
-        <rdfs:domain rdf:resource="https://project-genesis.io/rimbo#Patch"/>
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#patchTo">
+        <rdfs:domain rdf:resource="http://rimbo.project-genesis.io#Patch"/>
         <rdfs:range rdf:resource="http://edamontology.org/format_1915"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#revisionTo -->
+    <!-- http://rimbo.project-genesis.io#revisionTo -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#revisionTo">
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#revisionTo">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://project-genesis.io/rimbo#Revision"/>
-        <rdfs:range rdf:resource="https://project-genesis.io/rimbo#Model"/>
+        <rdfs:domain rdf:resource="http://rimbo.project-genesis.io#Revision"/>
+        <rdfs:range rdf:resource="http://rimbo.project-genesis.io#Model"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#usesSoftware -->
+    <!-- http://rimbo.project-genesis.io#usesSoftware -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#usesSoftware">
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#usesSoftware">
         <rdfs:range rdf:resource="https://w3id.org/reproduceme#Software"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#withPublication -->
+    <!-- http://rimbo.project-genesis.io#withPublication -->
 
-    <owl:ObjectProperty rdf:about="https://project-genesis.io/rimbo#withPublication">
+    <owl:ObjectProperty rdf:about="http://rimbo.project-genesis.io#withPublication">
         <rdfs:range rdf:resource="https://w3id.org/reproduceme#Publication"/>
     </owl:ObjectProperty>
     
@@ -558,59 +558,59 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- https://project-genesis.io/rimbo#binaryRepresentation -->
+    <!-- http://rimbo.project-genesis.io#binaryRepresentation -->
 
-    <owl:DatatypeProperty rdf:about="https://project-genesis.io/rimbo#binaryRepresentation">
+    <owl:DatatypeProperty rdf:about="http://rimbo.project-genesis.io#binaryRepresentation">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#doi -->
+    <!-- http://rimbo.project-genesis.io#doi -->
 
-    <owl:DatatypeProperty rdf:about="https://project-genesis.io/rimbo#doi">
+    <owl:DatatypeProperty rdf:about="http://rimbo.project-genesis.io#doi">
         <rdfs:comment>Publication persistent identifier</rdfs:comment>
         <rdfs:label>doi</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#id -->
+    <!-- http://rimbo.project-genesis.io#id -->
 
-    <owl:DatatypeProperty rdf:about="https://project-genesis.io/rimbo#id"/>
+    <owl:DatatypeProperty rdf:about="http://rimbo.project-genesis.io#id"/>
     
 
 
-    <!-- https://project-genesis.io/rimbo#name -->
+    <!-- http://rimbo.project-genesis.io#name -->
 
-    <owl:DatatypeProperty rdf:about="https://project-genesis.io/rimbo#name"/>
+    <owl:DatatypeProperty rdf:about="http://rimbo.project-genesis.io#name"/>
     
 
 
-    <!-- https://project-genesis.io/rimbo#orcid -->
+    <!-- http://rimbo.project-genesis.io#orcid -->
 
-    <owl:DatatypeProperty rdf:about="https://project-genesis.io/rimbo#orcid">
+    <owl:DatatypeProperty rdf:about="http://rimbo.project-genesis.io#orcid">
         <rdfs:comment>A standard alphanumeric code to uniquely identify scientific and other academic authors and contributors.</rdfs:comment>
         <rdfs:label>ORCID</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://project-genesis.io/rimbo#value -->
+    <!-- http://rimbo.project-genesis.io#value -->
 
-    <owl:DatatypeProperty rdf:about="https://project-genesis.io/rimbo#value"/>
+    <owl:DatatypeProperty rdf:about="http://rimbo.project-genesis.io#value"/>
     
 
 
-    <!-- https://project-genesis.io/rimbo#version -->
+    <!-- http://rimbo.project-genesis.io#version -->
 
-    <owl:DatatypeProperty rdf:about="https://project-genesis.io/rimbo#version"/>
+    <owl:DatatypeProperty rdf:about="http://rimbo.project-genesis.io#version"/>
     
 
 
-    <!-- https://project-genesis.io/rimbo#xref -->
+    <!-- http://rimbo.project-genesis.io#xref -->
 
-    <owl:DatatypeProperty rdf:about="https://project-genesis.io/rimbo#xref"/>
+    <owl:DatatypeProperty rdf:about="http://rimbo.project-genesis.io#xref"/>
     
 
 
@@ -1583,7 +1583,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://identifiers.org/mamo/MAMO_0000003 -->
 
     <owl:Class rdf:about="http://identifiers.org/mamo/MAMO_0000003">
-        <rdfs:subClassOf rdf:resource="https://project-genesis.io/rimbo#Model"/>
+        <rdfs:subClassOf rdf:resource="http://rimbo.project-genesis.io#Model"/>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://en.wikipedia.org/wiki/Mathematical_model</rdfs:seeAlso>
         <skos:definition xml:lang="en">Description of a system using mathematical concepts and language.  The model is composed of a set of variables and a set of equations that establish relationships between the variables. </skos:definition>
         <skos:example xml:lang="en">A set of ordinary differential equation describing a physical process.</skos:example>
@@ -3552,7 +3552,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
-        <rdfs:subClassOf rdf:resource="https://project-genesis.io/rimbo#MaterialEntity"/>
+        <rdfs:subClassOf rdf:resource="http://rimbo.project-genesis.io#MaterialEntity"/>
         <metadata:treeView rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</oboInOwl:hasExactSynonym>
@@ -4142,7 +4142,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16612 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16612">
-        <rdfs:subClassOf rdf:resource="https://project-genesis.io/rimbo#MaterialEntity"/>
+        <rdfs:subClassOf rdf:resource="http://rimbo.project-genesis.io#MaterialEntity"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.</obo:IAO_0000115>
         <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16612</obo:NCIT_NHC0>
         <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene or Genome</obo:NCIT_P106>
@@ -5310,6 +5310,82 @@ A comodi:Change may require the exchange of a species definition with an updated
     
 
 
+    <!-- http://rimbo.project-genesis.io#DiffPatch -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#DiffPatch">
+        <rdfs:subClassOf rdf:resource="http://rimbo.project-genesis.io#Patch"/>
+        <rdfs:comment>The diff patch, that together with another file can be used to recreate the revision file.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://rimbo.project-genesis.io#GeneProductAssociation -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#GeneProductAssociation">
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000170"/>
+        <rdfs:comment>Associates one more genes or gene products with reactions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://rimbo.project-genesis.io#LowerFluxBound -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#LowerFluxBound">
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000625"/>
+        <rdfs:comment>A parameter that limits the lower value that a flux may assume. This parameter may be determined experimentally, or may be the result of theoretical investigation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://rimbo.project-genesis.io#MaterialEntity -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#MaterialEntity"/>
+    
+
+
+    <!-- http://rimbo.project-genesis.io#Model -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#Model">
+        <rdfs:comment>Model of some concept or system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://rimbo.project-genesis.io#NewFile -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#NewFile">
+        <rdfs:subClassOf rdf:resource="http://rimbo.project-genesis.io#Patch"/>
+        <rdfs:comment>A new file to represent a revision to a model</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://rimbo.project-genesis.io#Patch -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#Patch">
+        <rdfs:comment>Description of the file for a revision to a model.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://rimbo.project-genesis.io#Revision -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#Revision">
+        <rdfs:subClassOf rdf:resource="http://rimbo.project-genesis.io#Model"/>
+        <rdfs:comment>Modified version of a model</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://rimbo.project-genesis.io#UpperFluxBound -->
+
+    <owl:Class rdf:about="http://rimbo.project-genesis.io#UpperFluxBound">
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000625"/>
+        <rdfs:comment>A parameter that limits the upper value that a flux may assume. This parameter may be determined experimentally, or may be the result of theoretical investigation.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/ns/prov#Agent -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Agent">
@@ -5381,82 +5457,6 @@ A comodi:Change may require the exchange of a species definition with an updated
         <prov:definition xml:lang="en">A software agent is running software.</prov:definition>
         <prov:dm rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent</prov:dm>
         <prov:n rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-types</prov:n>
-    </owl:Class>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#DiffPatch -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#DiffPatch">
-        <rdfs:subClassOf rdf:resource="https://project-genesis.io/rimbo#Patch"/>
-        <rdfs:comment>The diff patch, that together with another file can be used to recreate the revision file.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#GeneProductAssociation -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#GeneProductAssociation">
-        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000170"/>
-        <rdfs:comment>Associates one more genes or gene products with reactions</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#LowerFluxBound -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#LowerFluxBound">
-        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000625"/>
-        <rdfs:comment>A parameter that limits the lower value that a flux may assume. This parameter may be determined experimentally, or may be the result of theoretical investigation.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#MaterialEntity -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#MaterialEntity"/>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#Model -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#Model">
-        <rdfs:comment>Model of some concept or system</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#NewFile -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#NewFile">
-        <rdfs:subClassOf rdf:resource="https://project-genesis.io/rimbo#Patch"/>
-        <rdfs:comment>A new file to represent a revision to a model</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#Patch -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#Patch">
-        <rdfs:comment>Description of the file for a revision to a model.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#Revision -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#Revision">
-        <rdfs:subClassOf rdf:resource="https://project-genesis.io/rimbo#Model"/>
-        <rdfs:comment>Modified version of a model</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://project-genesis.io/rimbo#UpperFluxBound -->
-
-    <owl:Class rdf:about="https://project-genesis.io/rimbo#UpperFluxBound">
-        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000625"/>
-        <rdfs:comment>A parameter that limits the upper value that a flux may assume. This parameter may be determined experimentally, or may be the result of theoretical investigation.</rdfs:comment>
     </owl:Class>
     
 
